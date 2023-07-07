@@ -1,0 +1,135 @@
+.background-img {
+    width: 100vw;
+}
+
+.background-landing {
+    position: relative;
+}
+
+.download-icons {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+
+.download-buttons {
+    gap: 1rem;
+}
+
+.btn-outline-primary {
+    border: 1px white solid;
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: rgb(66, 65, 64);
+    border-color: grey
+}
+
+.feat {
+    display: flex;
+    justify-content: center;
+}
+
+.endorsements {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+#car-header-caption {
+    color: rgb(171, 209, 241);
+}
+
+#title {
+    position: relative;
+}
+
+#features {
+    margin-top: 5px;
+}
+
+#testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#testimonial > h2 {
+    margin-bottom: 20px;
+}
+
+#testimonial > img {
+    border-radius: 50%;
+    height: 100px;
+    width: fit-content;
+    margin-bottom: 2    px;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer {
+    background-color: grey;
+    width: 100%
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+    .profile-pic {
+        position: absolute;
+        top: 65%;
+        left: 170%;
+        height: 70%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .profile-pic {
+        position: absolute;
+        top: 65%;
+        left: 170%;
+        height: 70%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .profile-pic {
+        position: absolute;
+        top: 65%;
+        left: 200%;
+        height: 70%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .endorsements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-pic {
+        height: 0px;
+    }
+
+    .endorsements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+}
+
